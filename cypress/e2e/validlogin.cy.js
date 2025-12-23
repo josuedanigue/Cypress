@@ -5,8 +5,8 @@ describe('Login test',()=>{
         cy.visit('https://test-01.tech11.com')
 
         //type username and password
-        cy.get('#username').type('claudia.niemeier@example.com')
-        cy.get('#password').type('ixiKRjGTws2zDYiHU5nfLYBz2fzSGCvK')
+        cy.get('#username').type('claud@example.com')
+        cy.get('#password').type('ixiKRjGTws2zU5nfLYBz2fzSGCvK')
 
         //click the login button
         cy.get('#kc-login').click()
